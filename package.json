@@ -2,7 +2,7 @@
   "name": "PennDelivery",
   "version": "0.0.0",
   "description": "Delivery service",
-  "main": "index.html",
+  "main": "web.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,6 @@
   "dependencies": {
     "logfmt": "~0.18.1",
     "express": "~3.4.7"
-  }
+  },
+  "devDependencies": {}
 }
