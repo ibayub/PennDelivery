@@ -2,7 +2,7 @@
   "name": "PennDelivery",
   "version": "0.0.0",
   "description": "Delivery service",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
