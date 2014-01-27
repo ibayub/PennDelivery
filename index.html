@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -6,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Penn Delivery</title>
+  <title>Philly Delivery Bros</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.css" rel="stylesheet">
@@ -20,25 +21,6 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
       <![endif]-->
-
-<script>
-var express = require("express");
-var logfmt = require("logfmt");
-var app = express();
-
-app.use(logfmt.requestLogger());
-
-app.get('/', function(req, res) {
-  res.send('Hello World!');
-});
-
-var port = process.env.PORT || 5000;
-app.listen(port, function() {
-  console.log("Listening on " + port);
-});
-
-</script>
-
 
     </head>
 
@@ -78,7 +60,7 @@ app.listen(port, function() {
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <center><h1>Penn Delivery</h1>
+        <center><h1>Penn Delivery Bros</h1>
           <p>We bring the things you need to you!</p>
           <p><a class="btn btn-primary btn-lg" role="button" href="order.html">Deliver it! &raquo;</a></p></center>
         </div>
@@ -106,11 +88,7 @@ app.listen(port, function() {
             </center>
           </div>
         </div>
-
-        <center><h3>Coming Soon: Fresh Grocer, Trader Joe's, and more!</h3></center>
       
-
-
         <hr>
         <footer>
           <p>&copy; PennDelivery 2014</p>
